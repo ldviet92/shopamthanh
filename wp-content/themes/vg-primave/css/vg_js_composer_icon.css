@@ -1,0 +1,16 @@
+.vc_element-icon.icon-wpb-vg {
+	background-image: url(../images/icons/elements_icons_vgtheme.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: block;
+	margin: 0;	
+}
+.icon-wpb-vg.icon-wpb-woocarousel {
+	background-position: 0 -32px;
+}
+.icon-wpb-vg.icon-wpb-postcarousel {
+    background-position: 0 -64px;
+}
+.icon-wpb-vg.icon-wpb-megamenu {
+    background-position: 0 -96px;
+}

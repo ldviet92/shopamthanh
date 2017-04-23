@@ -1,0 +1,125 @@
+/*
+Tags: portfolio
+*/ 
+/* CSS Document */
+.vgpc-wrapper.primave-default {
+	overflow: visible;
+}
+	
+.vgpc-wrapper.primave-default .vgpc-item-i {
+	margin: 0 0 20px;
+    padding: 0 15px;
+}
+.vgpc-wrapper.primave-default .vgpc-item-i:last-child {
+	margin: 0 !important;
+}
+
+.vgpc-wrapper.primave-default .vgpc-image-block {
+	 padding: 0;
+	 position: relative;
+}
+
+.vgpc-wrapper.primave-default .vgpc-image-block a {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+.vgpc-wrapper.primave-default .vgpc-image-block a:before,
+.vgpc-wrapper.primave-default .vgpc-image-block a:after {
+	content: "";
+	position: absolute;
+	height: 0;
+	width: 0;
+	background-color: rgba(255,255,255,0.15);
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+.vgpc-wrapper.primave-default .vgpc-image-block a:before {
+	left: 0;
+    margin: auto;
+    top: 0;
+}
+.vgpc-wrapper.primave-default .vgpc-image-block a:after {
+	bottom: 0;
+	right: 0;
+}
+
+.vgpc-wrapper.primave-default .vgpc-image-block:hover a:after,
+.vgpc-wrapper.primave-default .vgpc-image-block:hover a:before {
+	height: 100%;
+	width: 100%;
+	-webkit-transition: all 0.4s ease-out 0s;
+	-moz-transition: all 0.4s ease-out 0s;
+	-o-transition: all 0.4s ease-out 0s;
+	transition: all 0.4s ease-out 0s;
+}
+.vgpc-wrapper.primave-default .vgpc-image-block a img{
+	width: 100%;
+}
+.vgpc-wrapper.primave-default .vgpc-text-block { 
+	position: relative;
+	z-index: 0;
+}
+
+.vgpc-wrapper.primave-default .vgpc-post-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 0 0 10px 0;
+    text-align: left;
+    margin: 0;
+}
+
+.vgpc-wrapper.primave-default .timmer {
+	font-size: 12px;
+	text-align: left;
+	margin: 10px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-weight:normal;
+}
+.vgpc-wrapper.primave-default .timmer .vg-d {
+	display: block;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 2px;
+	margin-bottom: 2px;
+}
+.vgpc-wrapper.primave-default .timmer .vg-y {
+	display: none;
+}
+.vgpc-wrapper.primave-default .timmer .entry-date{margin-right:10px}
+.vgpc-wrapper.primave-default .timmer a{margin-left:10px;}
+.vgpc-wrapper.primave-default .vgpc-post-category,
+.vgpc-wrapper.primave-default .vgpc-post-author,
+.vgpc-wrapper.primave-default .vgpc-post-readmore {
+	text-align: left;
+	/*font-style: italic;*/
+}
+.vgpc-wrapper.primave-default .vgpc-post-desc{
+	margin-bottom:15px
+}
+.vgpc-wrapper.primave-default .vgpc-post-desc p {
+	margin-bottom: 10px;
+}
+.vgpc-wrapper.primave-default .vgpc-post-readmore a{
+	color: #363636;
+    font-size: 18px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 12px 0px;
+    text-transform: none;
+    display: inline-block;
+    margin-top: 10px;
+	font-weight:bold;
+}
+
+
+@media screen and (max-width: 767px) {
+	.vgpc-wrapper.primave-default .vgpc-item-i {
+		width: 100% !important;
+		float: none;
+	}
+}
